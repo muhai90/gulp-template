@@ -1,0 +1,26 @@
+{
+  "name": "gulp-4-template",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tfs.websparks.sg/FrontEnd/Muhaimin/_git/gulp-4-template"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.1",
+    "node": "^12.16.1",
+    "postcss": "^8.4.14"
+  }
+}

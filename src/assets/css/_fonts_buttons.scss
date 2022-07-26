@@ -1,0 +1,42 @@
+@each $name,
+$size in $fonts {
+    h#{$name} {
+        font-size: $size + rem;
+        font-weight: 600;
+        line-height: 1.1;
+        @if $name==2 {
+            color: $blue;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            @media (min-width: 768px) {
+                margin-bottom: 1.875rem;
+            }
+            @media (max-width: 768px) {
+                font-size: 22px;
+            }
+        }
+        @if $name==3 {
+            color: $blue;
+            margin-bottom: 1.5rem;
+            text-transform: initial;
+        }
+    }
+    .h#{$name} {
+        font-size: $size + rem;
+        font-weight: 600;
+        line-height: 1.1;
+        @if $name==2 {
+            color: $blue;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            @media (min-width: 768px) {
+                margin-bottom: 3rem;
+            }
+        }
+        @if $name==3 {
+            color: $darkblue;
+            margin-bottom: 1.5rem;
+            text-transform: initial;
+        }
+    }
+}
